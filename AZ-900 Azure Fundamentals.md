@@ -39,15 +39,15 @@ Time commitment:
 ## 📅 Day 1 – Cloud Concepts (High Yield)
 
 ### John Savill
-- [ ] CapEx, OpEx & Consumption-based  
+- [x] CapEx, OpEx & Consumption-based  
   https://youtu.be/WiwV9wb0GMo
-- [ ] Differences Between Cloud Service Categories  
+- [x] Differences Between Cloud Service Categories  
   https://youtu.be/IqQC1EOQqeU
-- [ ] Identify the Right Service Type  
+- [x] Identify the Right Service Type  
   https://youtu.be/KH8NH76h2vc
-- [ ] Differences Between Types of Cloud Computing  
+- [x] Differences Between Types of Cloud Computing  
   https://youtu.be/7dlCrF2wmXU
-- [ ] Benefits of High Availability & Scalability  
+- [x] Benefits of High Availability & Scalability  
   https://youtu.be/JRbhGzGzoOA
 
 ### Microsoft
