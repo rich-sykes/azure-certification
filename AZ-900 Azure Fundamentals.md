@@ -64,11 +64,11 @@ Focus:
 ## 📅 Day 2 – Reliability & Azure Global Architecture
 
 ### John Savill
-- [ ] Reliability and Predictability  
+- [x] Reliability and Predictability  
   https://youtu.be/kD2YqdDaO1w
-- [ ] Benefits & Usage of Regions and Region Pairs  
+- [x] Benefits & Usage of Regions and Region Pairs  
   https://youtu.be/4RjPOAN54AE
-- [ ] Benefits & Usage of Availability Zones  
+- [x] Benefits & Usage of Availability Zones  
   https://youtu.be/h0enGb17lnw
 
 ### Microsoft
