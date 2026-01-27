@@ -84,9 +84,9 @@ Key takeaways:
 ## 📅 Day 3 – Azure Hierarchy & Control Plane
 
 ### John Savill
-- [ ] Resource Groups  
+- [x] Resource Groups  
   https://youtu.be/g6thrYZhPZY
-- [ ] Subscriptions  
+- [x] Subscriptions  
   https://youtu.be/9vKAYW_WkLo
 - [ ] Management Groups  
   https://youtu.be/bPdDiEtCVhM
