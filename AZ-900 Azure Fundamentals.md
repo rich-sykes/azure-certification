@@ -88,9 +88,9 @@ Key takeaways:
   https://youtu.be/g6thrYZhPZY
 - [x] Subscriptions  
   https://youtu.be/9vKAYW_WkLo
-- [ ] Management Groups  
+- [x] Management Groups  
   https://youtu.be/bPdDiEtCVhM
-- [ ] Azure Resource Manager (ARM)  
+- [x] Azure Resource Manager (ARM)  
   https://youtu.be/g4u0NL2-3XM
 - [ ] Azure Arc (optional)  
   https://youtu.be/cW6_rvDYSHg
