@@ -105,7 +105,7 @@ Memorise:
 ### John Savill
 - [x] Resources Required for Virtual Machines  
   https://youtu.be/PP5BWZ0cAJo
-- [ ] Core Compute Resources (VMs, Scale Sets, Containers, Functions)  
+- [x] Core Compute Resources (VMs, Scale Sets, Containers, Functions)  
   https://youtu.be/yKDSAYDLGrI
 
 Optional:
