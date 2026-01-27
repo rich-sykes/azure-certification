@@ -92,7 +92,7 @@ Key takeaways:
   https://youtu.be/bPdDiEtCVhM
 - [x] Azure Resource Manager (ARM)  
   https://youtu.be/g4u0NL2-3XM
-- [ ] Azure Arc (optional)  
+- [x] Azure Arc (optional)  
   https://youtu.be/cW6_rvDYSHg
 
 Memorise:
