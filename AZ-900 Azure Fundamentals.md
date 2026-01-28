@@ -126,7 +126,7 @@ Know:
   https://youtu.be/aNK0C9Oj2sg
 - [x] Public and Private Endpoints  
   https://youtu.be/bPNkXwRFsek
-- [ ] Storage Account Resources  
+- [x] Storage Account Resources  
   https://youtu.be/b8BrfsxLSx8
 
 ### Microsoft
