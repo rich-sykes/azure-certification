@@ -145,11 +145,11 @@ Exam traps:
 ## 📅 Day 6 – Migration, Marketplace & Serverless
 
 ### John Savill
-- [ ] Data Movement and Migration Options  
+- [x] Data Movement and Migration Options  
   https://youtu.be/jNBcXnMTo9s
-- [ ] Azure Marketplace  
+- [x] Azure Marketplace  
   https://youtu.be/b7RuB4Bymgc
-- [ ] Serverless Technologies  
+- [x] Serverless Technologies  
   https://youtu.be/-xeJGiMw5OE
 
 Know:
