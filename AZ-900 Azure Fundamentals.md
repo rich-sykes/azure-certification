@@ -161,7 +161,7 @@ Know:
 ## 📅 Day 7 – Security Fundamentals
 
 ### John Savill
-- [ ] Microsoft Defender for Cloud  
+- [x] Microsoft Defender for Cloud  
   https://youtu.be/eWcoMi_nQt4
 - [ ] Defense in Depth  
   https://youtu.be/CHKS2FcEMek
