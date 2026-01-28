@@ -124,7 +124,7 @@ Know:
 ### John Savill
 - [x] Core Network Resources  
   https://youtu.be/aNK0C9Oj2sg
-- [ ] Public and Private Endpoints  
+- [x] Public and Private Endpoints  
   https://youtu.be/bPNkXwRFsek
 - [ ] Storage Account Resources  
   https://youtu.be/b8BrfsxLSx8
