@@ -122,7 +122,7 @@ Know:
 ## 📅 Day 5 – Networking & Storage (Exam Favourites)
 
 ### John Savill
-- [ ] Core Network Resources  
+- [x] Core Network Resources  
   https://youtu.be/aNK0C9Oj2sg
 - [ ] Public and Private Endpoints  
   https://youtu.be/bPNkXwRFsek
