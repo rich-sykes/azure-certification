@@ -175,9 +175,9 @@ Know:
   https://youtu.be/6cv-wdo9TJw
 
 Optional:
-- [ ] Key Vault  
+- [x] Key Vault  
   https://youtu.be/ZBXVAD4S0Tc
-- [ ] Microsoft Sentinel  
+- [x] Microsoft Sentinel  
   https://youtu.be/xaqiPXL6tz0
 
 ---
