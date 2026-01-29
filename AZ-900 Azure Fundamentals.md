@@ -163,15 +163,15 @@ Know:
 ### John Savill
 - [x] Microsoft Defender for Cloud  
   https://youtu.be/eWcoMi_nQt4
-- [ ] Defense in Depth  
+- [x] Defense in Depth  
   https://youtu.be/CHKS2FcEMek
-- [ ] Zero Trust  
+- [x] Zero Trust  
   https://youtu.be/JX3w4to-qgo
-- [ ] Network Security Groups (NSGs)  
+- [x] Network Security Groups (NSGs)  
   https://youtu.be/flCoRc1uv9o
-- [ ] Azure Firewall  
+- [x] Azure Firewall  
   https://youtu.be/1-_cqpUISg4
-- [ ] Azure DDoS Protection  
+- [x] Azure DDoS Protection  
   https://youtu.be/6cv-wdo9TJw
 
 Optional:
