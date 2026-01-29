@@ -185,9 +185,9 @@ Optional:
 ## 📅 Day 8 – Identity, Governance & Compliance
 
 ### John Savill
-- [ ] Authentication vs Authorization  
+- [x] Authentication vs Authorization  
   https://youtu.be/GA-yNu6aFMk
-- [ ] Azure Directory Services  
+- [x] Azure Directory Services  
   https://youtu.be/E4__JBVE25I
 - [ ] External Identities  
   https://youtu.be/G5_z4PFgn2o
