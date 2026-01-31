@@ -201,7 +201,7 @@ Optional:
   https://youtu.be/eF_KilJRxbE
 - [ ] Tags  
   https://youtu.be/eaf63hE_6SQ
-- [ ] Azure Policy  
+- [x] Azure Policy  
   https://youtu.be/z7WMqHE3R8g
 
 Optional / skim:
