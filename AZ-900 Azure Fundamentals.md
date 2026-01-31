@@ -189,15 +189,15 @@ Optional:
   https://youtu.be/GA-yNu6aFMk
 - [x] Azure Directory Services  
   https://youtu.be/E4__JBVE25I
-- [ ] External Identities  
+- [x] External Identities  
   https://youtu.be/G5_z4PFgn2o
-- [ ] Conditional Access, MFA & SSO  
+- [x] Conditional Access, MFA & SSO  
   https://youtu.be/DFwERh9Xxk0
-- [ ] Overview of Microsoft Entra  
+- [x] Overview of Microsoft Entra  
   https://youtu.be/bSIF_GjaCmo
 - [ ] RBAC  
   https://youtu.be/0iVyJBG06fM
-- [ ] Resource Locks  
+- [x] Resource Locks  
   https://youtu.be/eF_KilJRxbE
 - [ ] Tags  
   https://youtu.be/eaf63hE_6SQ
