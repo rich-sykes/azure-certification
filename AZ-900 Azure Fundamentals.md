@@ -217,7 +217,7 @@ Optional / skim:
 ## 📅 Day 9 – Cost Management & SLAs
 
 ### John Savill
-- [ ] Factors That Affect Costs  
+- [x] Factors That Affect Costs  
   https://youtu.be/fMShW_RGcxY
 - [ ] Factors to Reduce Cost  
   https://youtu.be/B5yiKE2DLH8
@@ -227,7 +227,7 @@ Optional / skim:
   https://youtu.be/FoBjC9CAF08
 - [x] Service Level Agreements (SLAs)  
   https://youtu.be/3QIVbgnNrR0
-- [ ] Azure Service Lifecycle  
+- [x] Azure Service Lifecycle  
   https://youtu.be/NJ9-S7C0pY4
 
 Know cold:
