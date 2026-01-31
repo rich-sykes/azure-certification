@@ -205,11 +205,11 @@ Optional:
   https://youtu.be/z7WMqHE3R8g
 
 Optional / skim:
-- [ ] Microsoft Purview  
+- [x] Microsoft Purview  
   https://youtu.be/mXjXcBr1ajY
 - [ ] Azure Blueprints  
   https://youtu.be/SJbDcvkySCY
-- [ ] Cloud Adoption Framework  
+- [x] Cloud Adoption Framework  
   https://youtu.be/VHQxbIynlN4
 
 ---
