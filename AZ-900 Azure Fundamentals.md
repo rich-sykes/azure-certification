@@ -221,11 +221,11 @@ Optional / skim:
   https://youtu.be/fMShW_RGcxY
 - [ ] Factors to Reduce Cost  
   https://youtu.be/B5yiKE2DLH8
-- [ ] Pricing & TCO Calculators  
+- [x] Pricing & TCO Calculators  
   https://youtu.be/pE-bf8i5blU
-- [ ] Azure Cost Management  
+- [x] Azure Cost Management  
   https://youtu.be/FoBjC9CAF08
-- [ ] Service Level Agreements (SLAs)  
+- [x] Service Level Agreements (SLAs)  
   https://youtu.be/3QIVbgnNrR0
 - [ ] Azure Service Lifecycle  
   https://youtu.be/NJ9-S7C0pY4
