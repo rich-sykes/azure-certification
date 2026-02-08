@@ -12,13 +12,11 @@ Each certification plan is:
 
 ## 🎯 Certifications Covered
 
-| Certification | Focus Area | Status |
-|---------------|-----------|--------|
-| **AZ-900** | Azure Fundamentals | ✅ Complete |
-| **AI-900** | Azure AI Fundamentals | 🚧 Planned |
-| **DP-900** | Azure Data Fundamentals | 🚧 Planned |
-| **SC-900** | Security, Compliance & Identity | ⏳ Future |
-| **PL-900** | Power Platform Fundamentals | ⏳ Future |
+| Certification | Focus Area              | Status     |
+| ------------- | ----------------------- | ---------- |
+| **AZ-900**    | Azure Fundamentals      | ✅ Complete |
+| **AI-900**    | Azure AI Fundamentals   | 🚧 Planned  |
+| **DP-900**    | Azure Data Fundamentals | 🚧 Planned  |
 
 ---
 
