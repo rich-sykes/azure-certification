@@ -9,10 +9,10 @@ Tick a box only when you can explain the concept in **one sentence**.
 
 ### Identify features of common AI workloads
 
-- [ ] Computer vision workloads
-- [ ] Natural language processing (NLP) workloads
-- [ ] Document processing workloads
-- [ ] Generative AI workloads
+- [x] Computer vision workloads
+- [x] Natural language processing (NLP) workloads
+- [x] Document processing workloads
+- [x] Generative AI workloads
 
 ---
 
@@ -31,30 +31,30 @@ Tick a box only when you can explain the concept in **one sentence**.
 
 ### Identify common machine learning techniques
 
-- [ ] Regression scenarios
-- [ ] Classification scenarios
-- [ ] Clustering scenarios
-- [ ] Deep learning techniques
-- [ ] Transformer architecture (high-level purpose)
+- [x] Regression scenarios
+- [x] Classification scenarios
+- [x] Clustering scenarios
+- [x] Deep learning techniques
+- [x] Transformer architecture (high-level purpose)
 
 ---
 
 ### Describe core machine learning concepts
 
-- [ ] Features vs labels
-- [ ] Training vs validation datasets
-- [ ] Overfitting vs underfitting
-- [ ] Supervised vs unsupervised learning
+- [x] Features vs labels
+- [x] Training vs validation datasets
+- [x] Overfitting vs underfitting
+- [x] Supervised vs unsupervised learning
 
 ---
 
 ### Describe Azure Machine Learning capabilities
 
-- [ ] Azure Machine Learning workspace purpose
-- [ ] Automated ML (AutoML)
+- [x] Azure Machine Learning workspace purpose
+- [x] Automated ML (AutoML)
 - [ ] Training vs inference
-- [ ] Model management and versioning
-- [ ] Model deployment concepts
+- [x] Model management and versioning
+- [x] Model deployment concepts
 
 ---
 
@@ -62,18 +62,18 @@ Tick a box only when you can explain the concept in **one sentence**.
 
 ### Identify common computer vision solution types
 
-- [ ] Image classification
-- [ ] Object detection
-- [ ] Optical Character Recognition (OCR)
-- [ ] Facial detection and analysis
+- [x] Image classification
+- [x] Object detection
+- [x] Optical Character Recognition (OCR)
+- [x] Facial detection and analysis
 
 ---
 
 ### Identify Azure tools and services for computer vision
 
-- [ ] Azure AI Vision service
-- [ ] Azure AI Face service
-- [ ] Prebuilt models vs custom vision models
+- [x] Azure AI Vision service
+- [x] Azure AI Face service
+- [x] Prebuilt models vs custom vision models
 
 ---
 
@@ -81,21 +81,21 @@ Tick a box only when you can explain the concept in **one sentence**.
 
 ### Identify features of common NLP workload scenarios
 
-- [ ] Key phrase extraction
-- [ ] Entity recognition
-- [ ] Sentiment analysis
-- [ ] Language modeling
-- [ ] Speech recognition
-- [ ] Speech synthesis
-- [ ] Translation
+- [x] Key phrase extraction
+- [x] Entity recognition
+- [x] Sentiment analysis
+- [x] Language modeling
+- [x] Speech recognition
+- [x] Speech synthesis
+- [x] Translation
 
 ---
 
 ### Identify Azure tools and services for NLP
 
-- [ ] Azure AI Language service
-- [ ] Azure AI Speech service
-- [ ] Text vs speech vs conversational workloads
+- [x] Azure AI Language service
+- [x] Azure AI Speech service
+- [x] Text vs speech vs conversational workloads
 
 ---
 
@@ -103,11 +103,11 @@ Tick a box only when you can explain the concept in **one sentence**.
 
 ### Identify features of generative AI solutions
 
-- [ ] What makes a model generative
-- [ ] Prompt-based interactions
-- [ ] Common GenAI scenarios (chat, summarisation, Q&A, RAG)
+- [x] What makes a model generative
+- [x] Prompt-based interactions
+- [x] Common GenAI scenarios (chat, summarisation, Q&A, RAG)
 - [ ] Hallucinations and grounding
-- [ ] Responsible AI considerations for GenAI
+- [x] Responsible AI considerations for GenAI
 
 ---
 
