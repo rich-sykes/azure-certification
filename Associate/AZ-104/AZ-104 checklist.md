@@ -2,6 +2,8 @@
 
 ## Skills at a glance
 
+<https://learn.microsoft.com/en-gb/training/paths/az-104-administrator-prerequisites/>
+
 - Manage Azure identities and governance (20–25%)
 - Implement and manage storage (15–20%)
 - Deploy and manage Azure compute resources (20–25%)
@@ -11,6 +13,8 @@
 ## Manage Azure identities and governance (20–25%)
 
 <https://learn.microsoft.com/en-gb/credentials/certifications/resources/study-guides/az-104#manage-azure-identities-and-governance-2025>
+
+<https://learn.microsoft.com/en-gb/training/paths/az-104-manage-identities-governance/>
 
 ### Manage Microsoft Entra users and groups
 
@@ -40,6 +44,8 @@
 
 <https://learn.microsoft.com/en-gb/credentials/certifications/resources/study-guides/az-104#implement-and-manage-storage-1520>
 
+<https://learn.microsoft.com/en-gb/training/paths/az-104-manage-storage/>
+
 ### Configure access to storage
 
 - Configure Azure Storage firewalls and virtual networks
@@ -61,6 +67,8 @@
 ## Deploy and manage Azure compute resources (20–25%)
 
 <https://learn.microsoft.com/en-gb/credentials/certifications/resources/study-guides/az-104#deploy-and-manage-azure-compute-resources-2025>
+
+<https://learn.microsoft.com/en-gb/training/paths/az-104-manage-compute-resources/>
 
 ### Automate deployment of resources by using Azure Resource Manager (ARM) templates or Bicep files
 
@@ -99,7 +107,38 @@
 - Configure deployment slots for an App Service
 
 ## Implement and manage virtual networking (15–20%)
-<https://learn.microsoft.com/en-gb/credentials/certifications/resources/study-guides/az-104#deploy-and-manage-azure-compute-resources-2025>
+
+<https://learn.microsoft.com/en-gb/credentials/certifications/resources/study-guides/az-104#implement-and-manage-virtual-networking-1520>
+
+<https://learn.microsoft.com/en-gb/training/paths/az-104-manage-virtual-networks/>
+
+### Configure and manage virtual networks in Azure
+
+- Create and configure virtual networks and subnets
+- Create and configure virtual network peering
+- Configure public IP addresses
+- Configure user-defined routes
+- Troubleshoot network connectivity
+
+###  Configure secure access to virtual networks
+
+- Create and configure network security groups (NSGs) and application security groups
+- Evaluate effective security rules in NSGs
+- Implement Azure Bastion
+- Configure service endpoints for Azure platform as a service (PaaS)
+- Configure private endpoints for Azure PaaS
+
+### Configure name resolution and load balancing
+
+- Configure Azure DNS
+- Configure an internal or public load balancer
+- Troubleshoot load balancing
+
+## Monitor and maintain Azure resources (10–15%)
+
+<https://learn.microsoft.com/en-gb/credentials/certifications/resources/study-guides/az-104#monitor-and-maintain-azure-resources-1015>
+
+<https://learn.microsoft.com/en-gb/training/paths/az-104-monitor-backup-resources/>
 
 ### Monitor resources in Azure
 
