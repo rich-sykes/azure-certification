@@ -158,3 +158,30 @@
 - Configure Azure Site Recovery for Azure resources
 - Perform a failover to a secondary region by using Site Recovery
 - Configure and interpret reports and alerts for backups
+
+## Gotcha's
+
+| Area               | What repeatedly catches candidates                                                                                                              |
+| ------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------- |
+| RBAC               | Scope inheritance; assigning at management-group, subscription, resource-group or resource scope; difference between Entra roles and Azure RBAC |
+| Governance         | Policy versus initiatives, locks versus RBAC, remediation and managed identities, tag inheritance not occurring automatically                   |
+| Entra ID           | Which features require P1/P2; group membership types; dynamic groups; administrative units; external users                                      |
+| Networking         | Peering is non-transitive; effective routes; longest-prefix routing; NSG evaluation; service endpoints versus private endpoints                 |
+| DNS/private access | Private DNS zones, VNet links and name resolution after creating a private endpoint                                                             |
+| Load balancing     | Layer 4 versus Layer 7 capabilities; health probes; inbound NAT rules; public versus internal load balancers                                    |
+| Storage security   | SAS types, stored access-policy compatibility, access keys versus Entra authorization, firewall behaviour                                       |
+| Storage resilience | LRS/ZRS/GRS/GZRS distinctions; whether failover and read access are available; replication boundaries                                           |
+| Azure Files        | Identity-based authentication prerequisites, snapshots, soft delete and differences from Blob Storage                                           |
+| Compute            | Availability sets versus zones; VM Scale Sets; disk types; VM resizing and move restrictions                                                    |
+| Containers         | ACI versus Container Apps, registry authentication, revisions, ingress, scaling and environment boundaries                                      |
+| App Service        | Plan versus app settings; scaling; deployment slots; slot-specific settings; custom domains and certificates                                    |
+| ARM/Bicep          | Dependency and scope interpretation, parameter versus variable/output syntax, deployment mode and existing-resource references                  |
+| Monitoring         | Activity Log versus resource logs versus metrics; diagnostic settings; Log Analytics; action groups and alert-processing rules                  |
+| Backup/recovery    | Recovery Services vault versus Backup vault; soft delete; backup policies; restore operations; Site Recovery failover sequence                  |
+
+- **Networking semantics**: You understand private endpoints, peering, NSGs and application connectivity professionally. The exam will ask narrow questions about effective routes, DNS linkage, non-transitive peering and exactly which resource must be modified.
+- **Storage administration**: You use ADLS and managed identity, but AZ-104 goes sideways into Azure Files, stored access policies, SAS details, lifecycle rules, redundancy options and account-level settings.
+- **Classic infrastructure**: VM availability sets, VMSS, managed disks, Recovery Services vaults and Site Recovery are less central to your Container Apps–led estate but remain heavily testable.
+- **Licensing and SKU trivia**: Knowing the correct design does not necessarily tell you whether a feature requires Entra ID P1, a particular App Service tier or a particular storage configuration.
+- **Portal terminology**: You may know what needs doing while not recognising Microsoft’s currently preferred blade, resource name or separation of responsibilities.
+- **Choosing the minimum sufficient change**: Many questions ask what you should configure first, or which minimum set of actions meets the requirement. A technically valid but broader architecture is often the wrong answer.
