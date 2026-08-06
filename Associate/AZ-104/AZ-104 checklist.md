@@ -23,6 +23,8 @@
 ### Manage Microsoft Entra users and groups
 
 - Create users and groups
+- [ ] **P2 — Dynamic groups**: Distinguish dynamic user and dynamic device groups; recognise the supported membership rules and that users and devices cannot be mixed in one dynamic group.
+- [ ] **P2 — Dynamic membership licensing**: Know the Microsoft Entra licensing requirements for users benefiting from dynamic group membership.
 - Manage user and group properties
 - Manage licenses in Microsoft Entra ID
 - Manage external users
@@ -31,14 +33,20 @@
 ### Manage access to Azure resources
 
 - Manage built-in Azure roles
+- [ ] **P3 — Management plane versus data plane**: Distinguish control over the Azure resource from access to the data stored or processed by that resource, and select the appropriate RBAC role.
+- [ ] **P2 — Managed identity types**: Compare system-assigned and user-assigned managed identities, including lifecycle, sharing, and role-assignment implications.
 - Assign roles at different scopes
+- [ ] **P3 — RBAC inheritance**: Role assignments inherit from parent scopes and are additive; a narrower assignment does not remove inherited permissions.
 - Interpret access assignments
 
 ### Manage Azure subscriptions and governance
 
 - Implement and manage Azure Policy
-- [ ] **Priority — Policy remediation**: Distinguish policy definitions, initiatives, assignments, compliance, exemptions, and remediation tasks; know when a managed identity and role assignment are required.
+- [ ] **P1 — Modify effect versus tag inheritance**: Tags do not inherit automatically; use an Azure Policy `modify` effect to add or replace tags during resource creation or update.
+- [ ] **P1 — Remediation of existing resources**: A policy assignment does not automatically change existing resources; create a remediation task for `modify` and `deployIfNotExists` policies.
+- [ ] **P1 — Policy assignment identity and RBAC**: `modify` and `deployIfNotExists` remediation requires a managed identity on the assignment with the roles specified by the policy definition at the required scope.
 - Configure resource locks
+- [ ] **P3 — Locks versus Owner**: Resource locks apply regardless of Azure RBAC permissions; an Owner must remove the lock before performing a blocked management-plane operation.
 - Apply and manage tags on resources
 - Manage resource groups
 - Manage subscriptions
@@ -57,10 +65,13 @@
 
 - Configure Azure Storage firewalls and virtual networks
 - Create and use shared access signature (SAS) tokens
-- [ ] **Priority — SAS and storage administration**: Compare user-delegation, service, and account SAS; configure permissions, scope, expiry, IP and protocol restrictions, stored access policies, access keys, storage firewalls, and virtual-network access.
+- [ ] **P2 — SAS types**: Compare service SAS, account SAS, and user-delegation SAS by authorization source, supported services, resource scope, and permissions.
 - Configure stored access policies
+- [ ] **P2 — SAS revocation**: Use a stored access policy to change or revoke associated service SAS tokens before their individual expiry; know which SAS types support stored access policies.
 - Manage access keys
+- [ ] **P3 — Portal access**: Browsing storage data in the portal requires an appropriate data-plane role plus management-plane `Reader` access to navigate the storage account.
 - Configure identity-based access for Azure Files
+- [ ] **P3 — Azure Files SMB identity**: Understand the identity-source, domain-join, share-level RBAC, and file/directory permission requirements for identity-based SMB authentication.
 
 ### Configure Azure Files and Azure Blob Storage
 
@@ -71,7 +82,7 @@
 - Configure snapshots and soft delete for Azure Files
 - Configure blob lifecycle management
 - Configure blob versioning
-- [ ] **Priority — Storage data management**: Review redundancy options, access tiers, lifecycle rules, blob versioning, snapshots, and soft-delete behavior for blobs, containers, and Azure Files.
+- [ ] **P3 — Storage redundancy**: Compare LRS, ZRS, GRS, and RA-GRS by replication boundary, zone and region resilience, read access to the secondary, and failover behavior.
 
 ## 3. Deploy and manage Azure compute resources (20–25%)
 
@@ -88,6 +99,7 @@
 ### Automate deployment of resources by using Azure Resource Manager (ARM) templates or Bicep files
 
 - Interpret an Azure Resource Manager template or a Bicep file
+- [ ] **P3 — Deployment modes**: Incremental mode leaves resources not declared in the template unchanged; complete mode deletes resources in the target resource group that are not declared, subject to documented exceptions.
 - Modify an existing Azure Resource Manager template
 - Modify an existing Bicep file
 - Deploy resources by using an Azure Resource Manager template or a Bicep file
@@ -100,9 +112,9 @@
 - Move a virtual machine to another resource group, subscription, or region
 - Manage virtual machine sizes
 - Manage virtual machine disks
-- [ ] **Priority — VM disks**: Distinguish OS, data, and temporary disks; select disk types and caching; attach, detach, resize, and snapshot managed disks.
+- [ ] **P2 — Managed-disk expansion**: Expand the Azure managed disk first, then extend the partition and filesystem inside the guest OS; understand when deallocation is required.
 - Deploy virtual machines to availability zones and availability sets
-- [ ] **Priority — Availability zones versus sets**: Choose the appropriate resilience model; understand fault and update domains, zonal and zone-redundant resources, and the deployment constraints of each option.
+- [ ] **P1 — Availability zones versus sets**: Zones distribute VMs across separate datacentres in a region; availability sets distribute VMs across fault and update domains within a datacentre grouping. Know their deployment constraints and SLA implications.
 - Deploy and configure an Azure Virtual Machine Scale Sets
 
 ### Provision and manage containers in the Azure portal
@@ -122,7 +134,7 @@
 - Configure backup for an App Service
 - Configure networking settings for an App Service
 - Configure deployment slots for an App Service
-- [ ] **Priority — App Service deployment slots**: Create, configure, swap, and roll back slots; identify slot-specific settings; understand warm-up, traffic routing, preview swaps, custom domains, certificates, scaling, and App Service plan requirements.
+- [ ] **P2 — Slot settings and stickiness**: Distinguish settings that swap from deployment-slot settings that remain with a slot; configure sticky app settings and connection strings and understand swap behavior.
 
 ## 4. Implement and manage virtual networking (15–20%)
 
@@ -138,19 +150,26 @@
 
 - Create and configure virtual networks and subnets
 - Create and configure virtual network peering
+- [ ] **P3 — Peering topology**: VNet peering is non-transitive; each required VNet-to-VNet connection needs direct peering or a supported hub-routing design.
 - Configure public IP addresses
 - Configure user-defined routes
-- [ ] **Priority — Route selection and UDRs**: Determine the effective route by longest-prefix match; distinguish system, BGP, and user-defined routes; configure route tables, next-hop types, subnet associations, and gateway-route propagation.
+- [ ] **P1 — Longest-prefix route selection**: Azure first selects the matching route with the longest prefix, regardless of whether its source is system, BGP, or user-defined.
+- [ ] **P1 — Equal-prefix source priority**: When matching prefix lengths are equal, Azure generally prefers a user-defined route, then a BGP route, then a system route.
+- [ ] **P2 — UDRs and virtual appliances**: Route traffic to a virtual appliance with the correct next-hop IP; enable IP forwarding on its NIC and within the appliance operating system.
 - Troubleshoot network connectivity
 
 ###  Configure secure access to virtual networks
 
 - Create and configure network security groups (NSGs) and application security groups
+- [ ] **P2 — Subnet and NIC NSG evaluation**: For inbound traffic Azure evaluates the subnet NSG before the NIC NSG; for outbound traffic it evaluates the NIC NSG before the subnet NSG.
+- [ ] **P3 — NSGs at every layer**: Traffic must be permitted by every applicable NSG; an allow rule at one layer cannot override a deny at another.
 - Evaluate effective security rules in NSGs
 - Implement Azure Bastion
 - Configure service endpoints for Azure platform as a service (PaaS)
 - Configure private endpoints for Azure PaaS
-- [ ] **Priority — Private endpoint DNS**: Trace name resolution from the client to the private IP; configure the correct private DNS zone; link it to the required virtual networks; understand DNS zone groups and the effect of custom DNS servers.
+- [ ] **P1 — Private versus service endpoints**: A private endpoint gives a service a private IP in the VNet; a service endpoint keeps the service's public endpoint while extending the subnet identity over the Azure backbone.
+- [ ] **P1 — Private DNS zones and VNet links**: Configure the service-specific `privatelink` zone, link every VNet that must resolve it, and understand the role of private DNS zone groups.
+- [ ] **P1 — Storage private-endpoint DNS path**: Trace the storage account public name through its `privatelink` CNAME to the private DNS A record and private IP; account for custom DNS forwarding when clients do not use Azure-provided DNS directly.
 
 ### Configure name resolution and load balancing
 
@@ -173,6 +192,7 @@
 - Configure log settings in Azure Monitor
 - Query and analyze logs in Azure Monitor
 - Set up alert rules, action groups, and alert processing rules in Azure Monitor
+- [ ] **P3 — Scheduled notification suppression**: Use an alert processing rule with a schedule to suppress or reroute notifications without disabling the underlying alert rules.
 - Configure and interpret monitoring of virtual machines, storage accounts, and networks by using Azure Monitor Insights
 - Use Azure Network Watcher and Connection monitor
 
@@ -180,9 +200,9 @@
 
 - Create a Recovery Services vault
 - Create an Azure Backup vault
+- [ ] **P2 — Recovery Services vault versus Backup vault**: Choose the vault type supported by the datasource and scenario; recognise that the two vault resources are not interchangeable.
 - Create and configure a backup policy
 - Perform backup and restore operations by using Azure Backup
-- [ ] **Priority — VM backup and restore**: Configure Recovery Services vaults, backup policies, on-demand backups, restores, soft delete, and backup monitoring; distinguish disk snapshots from Azure Backup recovery points.
 - Configure Azure Site Recovery for Azure resources
 - Perform a failover to a secondary region by using Site Recovery
 - Configure and interpret reports and alerts for backups
