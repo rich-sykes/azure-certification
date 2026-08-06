@@ -61,6 +61,16 @@
 
 <https://microsoftlearning.github.io/AZ-104-MicrosoftAzureAdministrator/Instructions/Labs/LAB_07-Manage_Azure_Storage.html>
 
+### Configure and manage storage accounts
+
+- [ ] Create and configure storage accounts
+- [ ] Configure Azure Storage redundancy
+- [ ] **P3 — Storage redundancy**: Compare LRS, ZRS, GRS, and RA-GRS by replication boundary, zone and region resilience, read access to the secondary, and failover behavior.
+- [ ] Configure object replication
+- [ ] Configure storage account encryption
+- [ ] Manage data using Azure Storage Explorer
+- [ ] Manage data using AzCopy
+
 ### Configure access to storage
 
 - Configure Azure Storage firewalls and virtual networks
@@ -82,7 +92,6 @@
 - Configure snapshots and soft delete for Azure Files
 - Configure blob lifecycle management
 - Configure blob versioning
-- [ ] **P3 — Storage redundancy**: Compare LRS, ZRS, GRS, and RA-GRS by replication boundary, zone and region resilience, read access to the secondary, and failover behavior.
 
 ## 3. Deploy and manage Azure compute resources (20–25%)
 
