@@ -37,6 +37,7 @@
 ### Manage Azure subscriptions and governance
 
 - Implement and manage Azure Policy
+- [ ] **Priority — Policy remediation**: Distinguish policy definitions, initiatives, assignments, compliance, exemptions, and remediation tasks; know when a managed identity and role assignment are required.
 - Configure resource locks
 - Apply and manage tags on resources
 - Manage resource groups
@@ -56,6 +57,7 @@
 
 - Configure Azure Storage firewalls and virtual networks
 - Create and use shared access signature (SAS) tokens
+- [ ] **Priority — SAS and storage administration**: Compare user-delegation, service, and account SAS; configure permissions, scope, expiry, IP and protocol restrictions, stored access policies, access keys, storage firewalls, and virtual-network access.
 - Configure stored access policies
 - Manage access keys
 - Configure identity-based access for Azure Files
@@ -69,6 +71,7 @@
 - Configure snapshots and soft delete for Azure Files
 - Configure blob lifecycle management
 - Configure blob versioning
+- [ ] **Priority — Storage data management**: Review redundancy options, access tiers, lifecycle rules, blob versioning, snapshots, and soft-delete behavior for blobs, containers, and Azure Files.
 
 ## 3. Deploy and manage Azure compute resources (20–25%)
 
@@ -97,7 +100,9 @@
 - Move a virtual machine to another resource group, subscription, or region
 - Manage virtual machine sizes
 - Manage virtual machine disks
+- [ ] **Priority — VM disks**: Distinguish OS, data, and temporary disks; select disk types and caching; attach, detach, resize, and snapshot managed disks.
 - Deploy virtual machines to availability zones and availability sets
+- [ ] **Priority — Availability zones versus sets**: Choose the appropriate resilience model; understand fault and update domains, zonal and zone-redundant resources, and the deployment constraints of each option.
 - Deploy and configure an Azure Virtual Machine Scale Sets
 
 ### Provision and manage containers in the Azure portal
@@ -117,6 +122,7 @@
 - Configure backup for an App Service
 - Configure networking settings for an App Service
 - Configure deployment slots for an App Service
+- [ ] **Priority — App Service deployment slots**: Create, configure, swap, and roll back slots; identify slot-specific settings; understand warm-up, traffic routing, preview swaps, custom domains, certificates, scaling, and App Service plan requirements.
 
 ## 4. Implement and manage virtual networking (15–20%)
 
@@ -134,6 +140,7 @@
 - Create and configure virtual network peering
 - Configure public IP addresses
 - Configure user-defined routes
+- [ ] **Priority — Route selection and UDRs**: Determine the effective route by longest-prefix match; distinguish system, BGP, and user-defined routes; configure route tables, next-hop types, subnet associations, and gateway-route propagation.
 - Troubleshoot network connectivity
 
 ###  Configure secure access to virtual networks
@@ -143,6 +150,7 @@
 - Implement Azure Bastion
 - Configure service endpoints for Azure platform as a service (PaaS)
 - Configure private endpoints for Azure PaaS
+- [ ] **Priority — Private endpoint DNS**: Trace name resolution from the client to the private IP; configure the correct private DNS zone; link it to the required virtual networks; understand DNS zone groups and the effect of custom DNS servers.
 
 ### Configure name resolution and load balancing
 
@@ -174,6 +182,7 @@
 - Create an Azure Backup vault
 - Create and configure a backup policy
 - Perform backup and restore operations by using Azure Backup
+- [ ] **Priority — VM backup and restore**: Configure Recovery Services vaults, backup policies, on-demand backups, restores, soft delete, and backup monitoring; distinguish disk snapshots from Azure Backup recovery points.
 - Configure Azure Site Recovery for Azure resources
 - Perform a failover to a secondary region by using Site Recovery
 - Configure and interpret reports and alerts for backups
